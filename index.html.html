@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="overlay">
+            <div class="form-container">
+                <div id="signup-form" class="form">
+                    <h2>Welcome to Pinterest</h2>
+                    <p>Find new ideas to try</p>
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Create a password" />
+                    <input type="date" placeholder="Birthdate" />
+                    <button class="button">Continue</button>
+                    <p>OR</p>
+                    <button class="button google">Continue with Google</button>
+                    <p>Already a member? <span id="login-link">Log in</span></p>
+                </div>
+                <div id="login-form" class="form hidden">
+                    <h2>Welcome to Pinterest</h2>
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <p><a href="#">Forgot your password?</a></p>
+                    <button class="button">Log in</button>
+                    <p>OR</p>
+                    <button class="button facebook">Continue with Facebook</button>
+                    <button class="button google">Continue with Google</button>
+                    <p>Not on Pinterest yet? <span id="signup-link">Sign up</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
